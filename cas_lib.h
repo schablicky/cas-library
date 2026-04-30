@@ -29,7 +29,7 @@ public:
 
 
 class OperatorNode : public Node {
-    std::string operatir;
+    char op;
     std::unique_ptr<Node> left;
     std::unique_ptr<Node> right;
 public:
