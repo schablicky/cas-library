@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -Wall -std=c++17
+CXXFLAGS = -Wall -Werror -Wextra -std=c++17
 
 TARGET = cas_app
 
