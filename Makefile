@@ -24,3 +24,4 @@ run: all
 .PHONY: clean
 clean:
 	rm -f *.o $(TARGET)
+	rm -rf docs
